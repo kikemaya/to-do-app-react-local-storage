@@ -24,16 +24,10 @@
 		"test:coverage": "vitest run --coverage --watch=false",
 		"lint": "npx @biomejs/biome lint --write ./src",
 		"format": "npx @biomejs/biome format --write ./src",
-		"check": "npx @biomejs/biome check --write ./src",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"check": "npx @biomejs/biome check --write ./src"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
+		"production": [">0.2%", "not dead", "not op_mini all"],
 		"development": [
 			"last 1 chrome version",
 			"last 1 firefox version",
@@ -43,7 +37,6 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@vitest/coverage-v8": "^2.0.3",
-		"gh-pages": "^6.1.1",
 		"jsdom": "^24.1.0",
 		"styled-components": "^5.3.11",
 		"vitest": "^2.0.3"

@@ -21,11 +21,11 @@
   flex-wrap: wrap;
 
   background-image: linear-gradient(
-      to right bottom,
+      to left top,
       rgba(9, 48, 40, 0.8),
       rgba(35, 122, 87, 0.8)
     ),
-    url("./../../images/wall.jpg");
+    url("./../../images/wallpaper.jpg");
 
   background-size: cover;
   background-position: center;
