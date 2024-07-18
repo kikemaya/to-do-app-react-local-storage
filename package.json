@@ -1,6 +1,6 @@
 {
 	"name": "to-do-app-react-local-storage",
-	"homepage": "https://kikemaya.github.io/to-do-app-react-local-storage",
+	"homepage": "/",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
