@@ -3,7 +3,7 @@ import { defineConfig } from "vitest/config";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/",
+	base: "https://kikemaya.github.io/to-do-app-react-local-storage/",
 	plugins: [react()],
 	test: {
 		globals: true,
