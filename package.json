@@ -25,7 +25,7 @@
 		"lint": "npx @biomejs/biome lint --write ./src",
 		"format": "npx @biomejs/biome format --write ./src",
 		"check": "npx @biomejs/biome check --write ./src",
-		"predeploy": "predeploy",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
 	},
 	"browserslist": {
